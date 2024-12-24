@@ -58,6 +58,7 @@ def answer_for_game(message, correct_answer):
 
 def game(message):
     list = []
+    print("hello")
     words = word_ids[str(message.chat.id)]
     for word in words:
         list.append(word)
